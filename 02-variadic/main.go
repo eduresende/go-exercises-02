@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println(greatest(3, 4, 5, 1, 2, 7))
+}
+
+func greatest(args ...int) int {
+	great := 0
+
+	for _, value := range args {
+		if value > great {
+			great = value
+		}
+	}
+
+	return great
+}
