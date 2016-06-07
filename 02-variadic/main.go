@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(greatest(3, 4, 5, 1, 2, 7))
+	greatestNumber := greatest(3, 4, 5, 1, 2, 7)
+
+	fmt.Println(greatestNumber)
 }
 
 func greatest(args ...int) int {
