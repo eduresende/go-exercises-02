@@ -25,9 +25,7 @@ func even(number int) bool {
 }
 
 func main() {
-
 	sum := 0
-
 	current := 2
 	last := 1
 
